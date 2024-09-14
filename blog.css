@@ -1,0 +1,47 @@
+body { 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh; 
+    background-color: #eed340;
+} 
+
+.box { 
+    border: 0.5px solid black; 
+    border-radius: 20px; 
+    padding: 20px; 
+    box-shadow: 8px 8px  rgba(0, 0, 0, 1); 
+    background-color: white;
+} 
+
+#box-img { 
+    border-radius: 5px;
+} 
+
+.learning { 
+    background-color: #eed340; 
+    display: block;
+    margin-right: 275px; 
+    padding: 5px; 
+    border-radius: 5px; 
+    font-family: sans-serif; 
+} 
+
+.description { 
+    text-align: center; 
+    color: hsl(0, 0%, 47%); 
+} 
+
+h1 { 
+    font-family: sans-serif; 
+} 
+
+.profile { 
+    display: flex; 
+    padding: 5px; 
+}
+
+.profile-pic { 
+    height: 40px; 
+    padding: 1px 10px;
+}
